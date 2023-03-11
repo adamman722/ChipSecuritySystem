@@ -24,3 +24,13 @@ You can assume the beginning marker is always Blue, and the ending marker is alw
 You do not need to find ALL solutions. Any solution is acceptable, but the solution must use the most number of chips.
 
 Asking questions is allowed and there are no tricks or gotchas that would trip you up. 
+
+
+
+[red,green,]
+[blue,yellow]
+[yellow,orange,]
+[yellow,orange,]
+[yellow,orange,]
+[yellow,orange,]
+[orange,purple]

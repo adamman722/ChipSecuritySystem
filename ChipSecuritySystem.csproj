@@ -47,8 +47,11 @@
     <Compile Include="Color.cs" />
     <Compile Include="ColorChip.cs" />
     <Compile Include="Constants.cs" />
+    <Compile Include="MyWork\FindGreen.cs" />
+    <Compile Include="MyWork\FindLinks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MyWork\FindBlue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
