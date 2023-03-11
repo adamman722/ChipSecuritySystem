@@ -10,8 +10,12 @@ namespace ChipSecuritySystem
     {
         static void Main(string[] args)
         {
-      
-            List<ColorChip> colorChips = new List<ColorChip>() {new ColorChip(Color.Blue,Color.Yellow) ,new ColorChip(Color.Orange, Color.Yellow),new ColorChip(Color.Yellow, Color.Orange),new ColorChip(Color.Orange, Color.Red),new ColorChip(Color.Red, Color.Green),new ColorChip(Color.Yellow, Color.Orange),
+
+
+            // sooo I was not entirely sure what it meant by use the most chips but I was able to kinda create a random set of data to test and it works.
+            //I would love some feedback becasue I know there has to be a better way that I am just not thinking of at the moment
+            //not gonna lie my brain is fried from the past week haha
+            List<ColorChip> colorChips = new List<ColorChip>() {new ColorChip(Color.Blue,Color.Yellow) ,new ColorChip(Color.Orange, Color.Yellow),new ColorChip(Color.Yellow, Color.Orange),new ColorChip(Color.Orange, Color.Red),new ColorChip(Color.Orange, Color.Red),new ColorChip(Color.Orange, Color.Red),new ColorChip(Color.Orange, Color.Red),new ColorChip(Color.Red, Color.Green),new ColorChip(Color.Yellow, Color.Orange),new ColorChip(Color.Yellow, Color.Orange),new ColorChip(Color.Yellow, Color.Orange),new ColorChip(Color.Yellow, Color.Orange),
                 new ColorChip(Color.Orange, Color.Purple) };
 
             List<ColorChip> origianlData = colorChips;
@@ -94,13 +98,8 @@ namespace ChipSecuritySystem
                     }
 
                 }
-
                 return colorChips2;
-
-
             }
-
-
         }
     }
 }
