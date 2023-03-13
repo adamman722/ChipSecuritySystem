@@ -47,7 +47,7 @@
     <Compile Include="Color.cs" />
     <Compile Include="ColorChip.cs" />
     <Compile Include="Constants.cs" />
-    <Compile Include="EntryPoint.cs" />
+    <Compile Include="MyWork\EntryPoint.cs" />
     <Compile Include="MyWork\FindGreen.cs" />
     <Compile Include="MyWork\FindLinks.cs" />
     <Compile Include="Program.cs" />
